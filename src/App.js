@@ -13,12 +13,7 @@ function App() {
         <Header />
           <div className="wrapper">
             <div className="home">
-              <Switch>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/opportunities" component={Opportunities} />
-                <Route exact path="/solutions" component={Solutions} />
-                <Route exact path="/contact-us" component={Contact} />
-              </Switch>
+              <HomeWrap />
             </div>
           </div>
       </div>
@@ -26,21 +21,4 @@ function App() {
   );
 }
 
-function Opportunities() {
-  return <p>Discover our numerous opportunities</p>;
-}
-
-function Solutions() {
-  return <p>Solutions that help you.</p>;
-}
-
-function Contact() {
-  return <p>Feel free to reach us.</p>;
-}
-
-function Home() {
-  return (
-   <HomeWrap />
-  );
-}
 export default App;
