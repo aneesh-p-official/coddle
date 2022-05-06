@@ -52,7 +52,7 @@ const HomeWrap = () => {
             paused
             >
               <div id="second-container" className="intro-wrap">
-                <h3>EFFICIENT AND <br/>QUALITY INNOVATION</h3>
+                <h3>Efficient and <br/>Quality Innovation</h3>
                 <p>Fusce id diam sed erat sodales fermentum. Morbi et iaculis ipsum, at fringilla elit. Cras faucibus orci nec est maximus, in molestie enim ultricies. Aliquam et mi elit. </p>
                 <div className="counter-place">
                   <div className="counter-item">
